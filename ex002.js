@@ -21,7 +21,7 @@ function chunks(num) {
     }
 }
 
-console.log(chunks(4))
+console.log(chunks(5))
 
 
 // fatorial
