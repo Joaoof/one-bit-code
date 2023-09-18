@@ -33,3 +33,12 @@ function fatorial(v) {
     }
 }
 console.log("passou",fatorial(5))
+
+// operador ternário
+
+let pedidoDeNamoro = "sim"
+let statusDaRelacao =  "namorando"
+
+let situacaoCivil = (pedidoDeNamoro === "nao" && statusDaRelacao === "solteiro") ? "Deu tudo certo" : "Tente da próxima vez"
+
+console.log(situacaoCivil)
