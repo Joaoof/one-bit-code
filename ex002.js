@@ -29,7 +29,7 @@ function fatorial(v) {
     if (v == 0) {
        return 1
     } else {
-        return v - fatorial(v-1)
+        return v * fatorial(v-1)
     }
 }
 console.log("passou",fatorial(5))
