@@ -12,4 +12,11 @@ function media(...numbers) {
    return sum / numbers.length // numbers.length pega a quantidade de numeros e faz a media
 }
 
-console.log(media(40, 59, 20, 39, 83, 10))
+console.log(media(40, 10))
+
+// const stringOriginal = 'Luizin ';
+// const repeticoes = 10; // Número de vezes que queremos repetir a string
+
+// const stringRepetida = stringOriginal.repeat(repeticoes)
+
+// console.log(stringRepetida) // Isso imprimirá 'Luis é corno. Luis é corno. Luis é corno. Luis
