@@ -1,12 +1,13 @@
-function array(num) {
+function reverseArray(arr) {
+    const reversed = []
 
+    for (let i = 0; i < arr.length; i++) {
+        reversed[i] = arr[arr.length -1 - i]
+    }
+
+    return reversed
 }
 
-console.log(array([10, 2, 5, 7]))
+console.log(reverseArray([10, 2, 5, 7]))
 
 
-let numeros = [10, 3, 6, 4, 3, 6, 3, 5, 6, 7].sort()
-
-for (let i of numeros) {
-    console.log(i)
-} 
