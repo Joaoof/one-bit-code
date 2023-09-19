@@ -31,7 +31,7 @@ function fatorial(v) {
     } else {
         return v * fatorial(v-1)
     }
-}
+} 
 console.log("passou",fatorial(5))
 
 // operador ternário
